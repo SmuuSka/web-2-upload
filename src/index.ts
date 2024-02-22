@@ -1,6 +1,6 @@
 import app from './app';
 
-const port = process.env.PORT_UPLOAD || 80;
+const port = process.env.PORT_UPLOAD || 3002;
 
 app.listen(port, () => {
   /* eslint-disable no-console */
